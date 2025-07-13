@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+<!--HTML is a standard markup language for creating webpages-->
+<!--HTML stands for Hyper Text Markup Language-->
+<!DOCTYPE html>   <!--This tells the browser that the file language is HTML5-->
 
 <html>
-    <head>
-    <title>Saurabh</title>    
+    <head>          <!--This tag stores the metadata of the web page-->
+    <title>Saurabh</title>    <!--This is the title of webpage, this creates no difference in the content of webpage-->
     </head>
     <body>
         <!-- this is normal text-->
@@ -23,6 +25,59 @@
         keyword and then specifying the number
         of words like lorem 20-->
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, accusamus? Necessitatibus harum dolorum ex aliquam corrupti quia tempore iure suscipit.</p>
+        <!--LISTS:Mainly there are 3 types of lists-->
+        <!--ordered list <ol>-->
+        <ol>
+            <li>Spiderman: Homecoming</li>
+            <li>Spiderman: Far from Home</li>
+            <li>Spiderman: No Way Home</li>
+        </ol>
+        <!--unordered list <ul>-->
+        <ul>
+            <li>Physics</li>    <!--li stands for List Item-->
+            <li>Maths</li>
+            <li>BEE</li>
+        </ul>
+        <!--nested list {list inside another list}-->
+        <ol>       <!--This could also be ul-->
+            <li>Bella</li>
+            <ol>
+                <li>Deja Vu</li>
+                <li>Prove Them Wrong</li>
+                <li>Humble Poet</li>
+                <li>Wonderboy</li>
+            </ol>
+            <li>BolJani</li>
+            <ul>
+                <li>Picture</li>
+                <li>Hood Poet</li>
+                <li>Back to Business</li>
+                <li>Anjaan</li>
+            </ul>
+        </ol>
+        <!-- Images: Local and online -->
+
+        <!-- Local images are those which are available locally on our machine-->
+        <img src="Assets/DSC04988.JPG" 
+          alt="Flower Pot"
+          width="200px"
+          height="200px"> <!-- "alt" is used to show some alternative text when the image is not available-->
         
+          <!-- Sometime we have to use images available on the internet, so we have to link-->
+        <img src="https://images.unsplash.com/photo-1469755785741-720ca0c526a6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyaXdpbmtsZXxlbnwwfHwwfHx8MA%3D%3D"
+         alt="Periwinkle" 
+         width="200px" 
+         height="200px">
+
+        <!--NOTE: Try to avoid putting direct google image link adress here, 
+        because the google link is too large-->
+
+        <!--Links and Hyperlinks-->
+        <!-- Links: Connect other sites to our site-->
+         <p>Checkout this amazing site: <a href="https://music.ishkur.com/#">
+          Ishkur's Guide to EDM 
+         </a></p>
+
+        <!--Hyperlink: Connect our another webpage to current webpage-->
     </body>
 </html>
