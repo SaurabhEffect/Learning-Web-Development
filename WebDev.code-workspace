@@ -7,5 +7,7 @@
 			"path": "../Portfolio_HTMLonly"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio_HTMLonly"
+	}
 }
